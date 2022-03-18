@@ -14,7 +14,9 @@ load_dotenv()
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
+    level=logging.INFO,
+    filename='main.log',
+    filemode='a'
     )
 
 secret_token = os.getenv('TOKKEN')
