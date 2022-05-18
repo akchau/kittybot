@@ -5,7 +5,6 @@ import logging
 import os
 import datetime
 from pprint import pprint
-import nltk
 import random
 
 from dotenv import load_dotenv
